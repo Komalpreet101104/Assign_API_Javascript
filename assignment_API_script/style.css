@@ -1,0 +1,73 @@
+
+   * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the entire body of the webpage */
+  body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0;
+    padding: 20px; 
+  }
+  
+  /* Styles for the main container */
+  .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+  }
+  
+  /* Styles for the header section */
+  .header {
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  /* Styles for the header text */
+  .header h1 {
+    color: #333; 
+  }
+  
+  /* Styles for the search container */
+  #search-container {
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the search input field */
+  #searchInput {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    margin-right: 10px; 
+  }
+  
+  /* Styles for the search button */
+  #searchBtn {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 16px; 
+  }
+  
+  /* Styles for the search button on hover */
+  #searchBtn:hover {
+    background-color: #0056b3; 
+  }
+  
+  /* Styles for the map container */
+  #map {
+    height: 400px; 
+    width: 100%; 
+    border-radius: 4px; 
+  }
+  

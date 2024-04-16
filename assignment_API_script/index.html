@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <!-- Links an external CSS stylesheet -->
+  <link rel="stylesheet" href="style.css"> 
+  
+  <!-- Sets the title of the webpage -->
+  <title>Google Maps</title> 
+</head>
+<body>
+
+<!-- Container for the search input and button -->
+  <div id="search-container"> 
+
+    <!-- Input field for entering location -->
+    <input type="text" id="searchInput" placeholder="Enter location"> 
+
+    <!-- Button to trigger the search -->
+    <button id="searchBtn">Search</button> 
+  </div>
+
+  <!-- Container for displaying the Google Map -->
+   <div id="map"></div> 
+
+  <!-- Loads the Google Maps API with the provided API key and calls the 'initMap' function -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxSlhtS-cj9oauFcEduk0gFgbvnzUaHm0&callback=initMap" async defer></script>
+
+  <!-- Links an external JavaScript file -->
+  <script src="script.js"></script> 
+</body>
+</html>
